@@ -6,7 +6,8 @@
 4. Clone the repository and navigate to your project directory in cmd, git bash
 5. Run `gem install bundler`
 6. Run `bundle install`
-7. At this point you should be able to run the post editor application locally by running `rails server` and navigating to http://localhost:3000 in a brower.
+7. Run `yarn install`
+8. At this point you should be able to run the post editor application locally by running `rails server` and navigating to http://localhost:3000 in a brower.
 # Continuous Integration
 There are checks that will be performed whenever Pull Requests are opened. To save time on the build server, please run the tests locally to check for errors that will occur in the CI builds.
 1. To run all tests, run the command `rake`
