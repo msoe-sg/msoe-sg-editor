@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/msoe-sg/msoe-sg-editor.svg?branch=master)](https://travis-ci.org/msoe-sg/msoe-sg-editor)
 # Setup
 1. You will need Ruby installed on your development machine. Ruby 2.4 or 2.5 should both work fine. 
     - Check version with `ruby -v`
