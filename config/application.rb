@@ -23,8 +23,11 @@ module MsoeSgEditor
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
+
+    # TODO: Get these classes working with the Rails autoloading system
     Rails.autoloaders.main.ignore("#{Rails.root}/app/factories")
-    
+    Rails.autoloaders.main.ignore("#{Rails.root}/app/services")
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
