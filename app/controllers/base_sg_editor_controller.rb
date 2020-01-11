@@ -1,3 +1,6 @@
+##
+# The base class for all contrllers in the SG editor which makes sure a user is authenticated
+# before an action in the editor can be accessed
 class BaseSgEditorController < ApplicationController
   before_action :check_user
 

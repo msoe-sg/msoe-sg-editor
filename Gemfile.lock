@@ -267,6 +267,7 @@ DEPENDENCIES
   kramdown
   mocha
   octokit (~> 4.14.0)
+  omniauth
   omniauth-google-oauth2
   puma (~> 4.1)
   rails (~> 6.0.2)
