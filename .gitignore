@@ -30,3 +30,5 @@ yarn-debug.log*
 /coverage
 
 /public/uploads
+
+credentials.json
