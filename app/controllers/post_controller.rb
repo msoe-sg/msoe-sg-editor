@@ -1,4 +1,4 @@
-class PostController < ApplicationController
+class PostController < BaseSgEditorController
   def index
   end
 end

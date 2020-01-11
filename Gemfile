@@ -52,3 +52,6 @@ gem 'dropzonejs-rails'
 
 # Octokit does not work with the most recent version of faraday so this locks it to a version that works.
 gem 'faraday', '~> 0.17.1'
+
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
