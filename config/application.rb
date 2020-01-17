@@ -36,5 +36,6 @@ module MsoeSgEditor
     config.webmaster_github_username = 'msoe-sse-webmaster'
     config.pull_request_body = 'This pull request was opened automatically by the SG website editor.'
     config.default_hero = 'https://source.unsplash.com/collection/145103/'
+    config.airtable_editor_base_id = 'appQSnqLbbNRukQJh'
   end
 end

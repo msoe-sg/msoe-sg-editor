@@ -105,4 +105,5 @@ Rails.application.configure do
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
   config.github_repo_name = 'msoe-sg.github.io'
+  config.airtable_editors_table_name = 'EditorsProduction'
 end

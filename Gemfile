@@ -55,3 +55,5 @@ gem 'faraday', '~> 0.17.1'
 
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
+
+gem 'airrecord'

@@ -10,6 +10,7 @@ class SessionsController < ApplicationController
     user = User.new
     user.id = user_info['uid']
     user.name = user_info['info']['name']
+    user.email = user_info['info']['email']
 
     session[:user] = Marshal.dump user
 

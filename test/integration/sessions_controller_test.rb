@@ -4,7 +4,8 @@ class SessionsControllerTest < BaseIntegrationTest
     OmniAuth.config.add_mock(:google_oauth2, {
       'uid': 1,
       'info': {
-        'name': 'Andy'
+        'name': 'Andy',
+        'email': 'sample@gmail.com'
       } 
     })
     
@@ -17,6 +18,7 @@ class SessionsControllerTest < BaseIntegrationTest
     user = Marshal.load session[:user]
     assert_equal 1, user.id
     assert_equal 'Andy', user.name
+    assert_equal 'sample@gmail.com', user.email
     assert_redirected_to '/'
   end
 end

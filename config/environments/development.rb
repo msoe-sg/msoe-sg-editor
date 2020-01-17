@@ -52,4 +52,5 @@ Rails.application.configure do
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   config.hosts << 'msoe-sg-editor.herokuapp.com'
   config.github_repo_name = 'msoe-sg-editor-test-repo'
+  config.airtable_editors_table_name = 'EditorsDevelopment'
 end
